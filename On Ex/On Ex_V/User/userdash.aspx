@@ -24,7 +24,8 @@
     </div>
     <div class="row">
         <div class="col-md-9">
-            <div class="panel" style="height: 481px">
+<%--            <div class="panel" style="height: 481px">--%>
+            <div class="panel">
                 <div class="panel-body">
                     <h3 class="title-hero">
                         Questions
@@ -136,7 +137,8 @@
                 </div>
             </div>
             <div class="panel">
-                <div class="panel-body" style="height: 376px">
+<%--                <div class="panel-body" style="height: 376px">--%>
+                <div class="panel-body">
                     <h3 class="title-hero">
                         Palette
                     </h3>
