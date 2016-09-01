@@ -5,18 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace On_Ex_V
+namespace On_Ex_V.User
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class user : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void btnlogin_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/user/userdash.aspx");
         }
     }
 }

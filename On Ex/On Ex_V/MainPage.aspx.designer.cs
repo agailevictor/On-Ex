@@ -11,7 +11,7 @@ namespace On_Ex_V
 {
 
 
-    public partial class Index
+    public partial class MainPage
     {
 
         /// <summary>
