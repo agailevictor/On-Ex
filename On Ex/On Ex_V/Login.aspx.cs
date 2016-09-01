@@ -16,7 +16,14 @@ namespace On_Ex_V
 
         protected void btnlogin_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/user/userdash.aspx");
+            if (txtusername.Text == "user")
+            {
+                Response.Redirect("~/user/userdash.aspx");
+            }
+            else if (txtusername.Text == "staff")
+            {
+                Response.Redirect("~/staff/staffdash.aspx");
+            }
         }
     }
 }

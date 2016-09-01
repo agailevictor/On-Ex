@@ -197,17 +197,17 @@
                 <div class="content-box-wrapper pad20A">
 
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address:</label>
+                        <label for="Username">Username:</label>
                         <div class="input-group input-group-lg">
                             <span class="input-group-addon addon-inside bg-white font-primary">
                                 <i class="glyph-icon icon-envelope-o"></i>
                             </span>           
-                            <asp:TextBox ID="txtemail" CssClass="form-control" placeholder="Enter email" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtusername" CssClass="form-control" placeholder="Username" runat="server"></asp:TextBox>
                         </div>
 
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password:</label>
+                        <label for="Password">Password:</label>
                         <div class="input-group input-group-lg">
                             <span class="input-group-addon addon-inside bg-white font-primary">
                                 <i class="glyph-icon icon-unlock-alt"></i>
